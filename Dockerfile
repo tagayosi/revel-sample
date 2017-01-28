@@ -3,6 +3,8 @@ FROM golang:1.7.5
 RUN go get github.com/revel/revel
 RUN go get github.com/revel/cmd/revel
 
+RUN revel new revel-sample
+
 ENTRYPOINT revel run revel-sample
 
 # The standard nginx container just runs nginx. The configuration file added
