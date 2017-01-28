@@ -1,0 +1,30 @@
+{{set . "title" "Hello World"}}
+{{set . "description" "Revel Web Framework sample application"}}
+{{template "header.html" .}}
+
+{{/* ヘッダー */}}
+<header class="page-header">
+  <div class="container">
+    <div class="row">
+      <h1>{{.greeting}}</h1>
+      <p>{{.message}} ({{len .message}})</p>
+    </div>
+  </div>
+</header>
+
+{{template "navi.html" .}}
+
+{{/* ボディ */}}
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      {{template "flash.html" .}}
+      <div>
+        <h2>{{msg . "hello.index.title"}}</h2>
+        <h3>{{msg . "say" "ワールド"}}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{template "footer.html" .}}
