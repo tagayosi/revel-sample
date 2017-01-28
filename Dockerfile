@@ -5,7 +5,9 @@ RUN go get github.com/revel/cmd/revel
 
 RUN revel new revel-sample
 
-ENTRYPOINT revel run revel-sample
+ENTRYPOINT revel run revel-sample dev 8080
+
+EXPOSE 8080
 
 # The standard nginx container just runs nginx. The configuration file added
 # below will be used by nginx.
