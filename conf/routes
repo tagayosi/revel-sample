@@ -6,6 +6,7 @@ module:testrunner
 
 GET     /hello                                  Hello.Index
 GET     /greet/:greeting                        Hello.Greet
+GET     /connectdb                              Connectdb.Index
 GET     /                                       App.Index
 
 # Ignore favicon requests

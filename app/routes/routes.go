@@ -4,27 +4,6 @@ package routes
 import "github.com/revel/revel"
 
 
-type tHello struct {}
-var Hello tHello
-
-
-func (_ tHello) Index(
-		) string {
-	args := make(map[string]string)
-	
-	return revel.MainRouter.Reverse("Hello.Index", args).Url
-}
-
-func (_ tHello) Greet(
-		greeting string,
-		) string {
-	args := make(map[string]string)
-	
-	revel.Unbind(args, "greeting", greeting)
-	return revel.MainRouter.Reverse("Hello.Greet", args).Url
-}
-
-
 type tApp struct {}
 var App tApp
 
@@ -66,6 +45,39 @@ func (_ tColumbo) Result(
 	
 	revel.Unbind(args, "s", s)
 	return revel.MainRouter.Reverse("Columbo.Result", args).Url
+}
+
+
+type tConnectdb struct {}
+var Connectdb tConnectdb
+
+
+func (_ tConnectdb) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("Connectdb.Index", args).Url
+}
+
+
+type tHello struct {}
+var Hello tHello
+
+
+func (_ tHello) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("Hello.Index", args).Url
+}
+
+func (_ tHello) Greet(
+		greeting string,
+		) string {
+	args := make(map[string]string)
+	
+	revel.Unbind(args, "greeting", greeting)
+	return revel.MainRouter.Reverse("Hello.Greet", args).Url
 }
 
 
