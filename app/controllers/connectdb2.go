@@ -4,8 +4,8 @@ import (
 	"github.com/revel/revel"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"strings"
-	"fmt"
+//	"strings"
+//	"fmt"
 )
 
 type TestUser2 struct{
