@@ -23,7 +23,7 @@ func (c Connectdb) Index() revel.Result {
 	
 	connectionString := getConnectionString()
 	
-	db, err := gorm.Open("mysql", connectionString)
+	db, err := gorm.Open("odbc", connectionString)
 	if err != nil {
 		revel.ERROR.Println("FATAL", err)
 		panic(err)

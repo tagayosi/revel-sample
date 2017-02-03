@@ -93,6 +93,18 @@ func main() {
 			
 		})
 	
+	revel.RegisterController((*controllers.Connectdb2)(nil),
+		[]*revel.MethodType{
+			&revel.MethodType{
+				Name: "Index",
+				Args: []*revel.MethodArg{ 
+				},
+				RenderArgNames: map[int][]string{ 
+				},
+			},
+			
+		})
+	
 	revel.RegisterController((*controllers.Hello)(nil),
 		[]*revel.MethodType{
 			&revel.MethodType{

@@ -60,6 +60,18 @@ func (_ tConnectdb) Index(
 }
 
 
+type tConnectdb2 struct {}
+var Connectdb2 tConnectdb2
+
+
+func (_ tConnectdb2) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("Connectdb2.Index", args).Url
+}
+
+
 type tHello struct {}
 var Hello tHello
 
