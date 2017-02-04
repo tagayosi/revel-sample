@@ -1,5 +1,7 @@
 runtime: custom
 env: flex
 
+MYSQL_CONNECTION: root:ada7c4g2@unix(/cloudsql/revelsample:asia-northeast1:revelsampledb)/gormsample
+
 beta_settings:
   cloud_sql_instances: revelsample:asia-northeast1:revelsampledb
