@@ -4,6 +4,10 @@ RUN go get github.com/revel/revel
 
 RUN go get github.com/revel/cmd/revel
 
+RUN go get github.com/go-sql-driver/mysql
+
+RUN go get github.com/jinzhu/gorm
+
 RUN revel new revel-sample
 
 COPY app.yaml src/revel-sample/
