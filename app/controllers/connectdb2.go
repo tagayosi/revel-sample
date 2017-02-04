@@ -6,6 +6,7 @@ import (
 	"github.com/jinzhu/gorm"
 //	"strings"
 //	"fmt"
+	"os"
 )
 
 type TestUser2 struct{
@@ -23,7 +24,11 @@ func (c Connectdb2) Index() revel.Result {
 	
 	//connectionString := getConnectionString()
 	//connectionString := "root:ada7c4g2@tcp(127.0.0.1:3306)/gormsample"
+	//connectionString := "proxyuser@tcp(127.0.0.1:3306)/gormsample"
 	connectionString := os.Getenv("MYSQL_CONNECTION")
+	
+	revel.INFO.Printf("%s",connectionString)
+	
 	
 	db, err := gorm.Open("mysql", connectionString)
 	if err != nil {

@@ -4,6 +4,39 @@ package routes
 import "github.com/revel/revel"
 
 
+type tConnectdb2 struct {}
+var Connectdb2 tConnectdb2
+
+
+func (_ tConnectdb2) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("Connectdb2.Index", args).Url
+}
+
+
+type tHello struct {}
+var Hello tHello
+
+
+func (_ tHello) Index(
+		) string {
+	args := make(map[string]string)
+	
+	return revel.MainRouter.Reverse("Hello.Index", args).Url
+}
+
+func (_ tHello) Greet(
+		greeting string,
+		) string {
+	args := make(map[string]string)
+	
+	revel.Unbind(args, "greeting", greeting)
+	return revel.MainRouter.Reverse("Hello.Greet", args).Url
+}
+
+
 type tApp struct {}
 var App tApp
 
@@ -57,39 +90,6 @@ func (_ tConnectdb) Index(
 	args := make(map[string]string)
 	
 	return revel.MainRouter.Reverse("Connectdb.Index", args).Url
-}
-
-
-type tConnectdb2 struct {}
-var Connectdb2 tConnectdb2
-
-
-func (_ tConnectdb2) Index(
-		) string {
-	args := make(map[string]string)
-	
-	return revel.MainRouter.Reverse("Connectdb2.Index", args).Url
-}
-
-
-type tHello struct {}
-var Hello tHello
-
-
-func (_ tHello) Index(
-		) string {
-	args := make(map[string]string)
-	
-	return revel.MainRouter.Reverse("Hello.Index", args).Url
-}
-
-func (_ tHello) Greet(
-		greeting string,
-		) string {
-	args := make(map[string]string)
-	
-	revel.Unbind(args, "greeting", greeting)
-	return revel.MainRouter.Reverse("Hello.Greet", args).Url
 }
 
 
