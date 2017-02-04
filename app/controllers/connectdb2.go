@@ -24,7 +24,7 @@ func (c Connectdb2) Index() revel.Result {
 	
 	//connectionString := getConnectionString()
 	//connectionString := "root:ada7c4g2@tcp(127.0.0.1:3306)/gormsample"
-	//connectionString := "proxyuser@tcp(127.0.0.1:3309)/gormsample"
+	//connectionString := "proxyuser@tcp(127.0.0.1:3306)/gormsample"
 	connectionString := os.Getenv("MYSQL_CONNECTION")
 	
 	revel.INFO.Printf("%s",connectionString)
