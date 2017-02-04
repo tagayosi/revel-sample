@@ -22,7 +22,7 @@ func (c Connectdb2) Index() revel.Result {
 	//return c.Render()
 	
 	//connectionString := getConnectionString()
-	connectionString := "root:ada7c4g2@tcp(127.0.0.1:3306)/bridge"
+	connectionString := "root:ada7c4g2@tcp(127.0.0.1:3306)/gormsample"
 	
 	
 	db, err := gorm.Open("mysql", connectionString)

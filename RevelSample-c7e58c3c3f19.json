@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "revelsample",
+  "private_key_id": "c7e58c3c3f1904e83514bbe8fcdec0b671765a90",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzuhGVGFI7IoBx\nyEwqFr25kTwAAdDRZQIqqyQiPvF/lzSUtzfoNWifOCw4hnPn58cDE1lF+1MsuqkQ\nIDzLtEUUxlGObS5SbMbPZF09Hy2R5EGhzF20AQUf11jkXWP52jhkYBKEdr3IYec1\naHkm5faq5+R9if4CgSkgwZTLssuGOlBG/tituTLvZhJLC50uO2jGy3hSFdH0/3m1\njTLgEopEr7RT6byxnsNMBevg8yD/ToezwdDqjLuIJSENlU3ohci+9458w6tqy7wa\nVQPo/1VCT/6yune3T3suhYAXB0Qbr3pTwh33FIsWy20+Lz+vhf2X8S0uRhzeCLHA\nXMryiVv1AgMBAAECggEBAJAWQ1RRrFNGZM1TtGQl2TL1UbH7wqqtHSCSFiTya3BM\nC9aSUNr0Po0vXpxuhmvMcMtxbqfhRpxchX+tKLBzNNLj76yMsY9ZL8ZDA1EmNsV4\nxnltu029Z5tQbS6gBK/hmEY4k3/pJluIyfEScdaSlMANqyxOPftKC2v8Zkssa2iO\n7WHW7Z5Ukp7tw66Ue9ARNZKhtiIotB86I4EIYkDN0CrKd8siSEerb4nUW8DTNDo2\nO3Ou0yS3UI95Uw7msgFqmDDZQJnHK3A/Af/+3G7F61qWHy4o/YhvLm16lSalvdL5\nlm6QFh1qQ9c4m+nGkhmyagFoDY9o/cFtl2IpdeiuNL0CgYEA37r39PYACUn4RJTm\nY8lJusJmlR06mTHN+hPOAXSQ4feax/qGlYwS35hKO+HzVd16+drfX6WVfjV5PwnN\n4dohLpF9beFKYpmRWmvE1/d2v1z37yNR4x9oO2PwwdErWKyhlYzO0lvAb/tqYtUM\nrg0QOLv2MYkOEgO/tegO3nLD0ysCgYEAzaZP2exEI1HEp92y2RCHpg50RVKD7Txo\nQ/a4x5OCKM/r8tEXelaHqMJxgehFDJ/tJT9LvYx/+hDIX72eKwYhoNxDETXe/BR/\nuCMxsupL3EFqRl+G2WTuCD9vdikUElTZPF4GoWqwxwRXGbBIvCFYHLqQt2fGg9d6\nFq2pewBGfV8CgYAVqtrWu3hXbfWAVtdVNKpSTv92U4VYTs1++aoK1AowCDXSRj4A\nf7dYNjyCPii92RxO1FarwbKPrYgXhdCNnf12sBpwqM/2ap78HdHLhKjYcZ2FaGtG\nzsTec5hefO5wwQ9JF4D0OHSTo8qy1aVLufInPHTkaTyWnAxWBqph+sViTwKBgD4v\nIQwrZjsr2YRNBGygk/QBgOUJW30b/Ac5DozCrOP8Y0NsOGY0zhaYnUwD2QVFQqc1\nqYhqeLQ76OsSYkZuNzL2B42ntYKSDEC426lXMZMrcKBQ+Gy6GUQDMogPSdN1Nq8L\nW4PpyASV6mSJKqVAi+07+NCMn7l0KaW743ifD7GPAoGAVsRNiktzToYCZBlD2/2l\nFyXA07iGKAb+wSmzLoJIad1+KqjjwyGlUw+Vx3koh82gV/V1N5XZ3G2zhjhKemDA\nsU4KmOfQ/wPqfpXKeGIN7/XRsf7YGsRqhOEa+ukRuN9sGJ8/S8dTiyV3N/jMVke5\n4oHAyCG57MroAA+L5ke8bX0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "revel-sample-db@revelsample.iam.gserviceaccount.com",
+  "client_id": "105991776311898582163",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/revel-sample-db%40revelsample.iam.gserviceaccount.com"
+}
