@@ -2,7 +2,7 @@ runtime: custom
 env: flex
 
 env_variables:
-  MYSQL_CONNECTION: proxyuser@tcp(127.0.0.1:3306)/gormsample
+  MYSQL_CONNECTION: proxyuser@unix(/cloudsql/revelsample:asia-northeast1:revelsampledb)/gormsample
 
 beta_settings:
   cloud_sql_instances: revelsample:asia-northeast1:revelsampledb
